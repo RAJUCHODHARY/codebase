@@ -1,0 +1,113 @@
+@media screen and (min-width:320px) and (max-width:570px) {
+    header {
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;        
+    }
+    .logo a img {
+        width: 60px;
+    }
+    .btn a{padding: 0 5px;
+        font-size: 18px;
+       }
+    header ul li a{
+        font-size: 10px !important; 
+    }
+    header ul{
+        flex-wrap: wrap;
+    }
+    header ul li{padding: 0;
+     margin:  0;
+    }
+     .Appliyab h4 {
+        font-size: 25px;
+        
+    }
+    .Appliyaa {
+        display: none !important;
+    }
+    p{
+        font-size: 15px;
+    }
+    .parentb a img {
+        max-width: 102px;
+    }
+    .parent .btn a {
+        font-size: 18px;
+    }
+    h1,h2,h3{
+        font-size: 20px !important;
+    }
+    .parentb,.perentd,  .parenthead,.parenteaa,.parentfaa,.parentgaa,.parentgb,.parenth h4,.parentib ,.Servicesb,.Appliyc,.Appliya,.Appliyd
+    ,.contectaba,.contectb{
+        flex-direction: column;
+    }
+    
+    .parentda,.parentea,.parentfa,.parent,.parentgba,.parentgbb,.parenth,.SERVICESba,.Appliyda,.Appliydb,.contectabb,.contectba{
+        width: unset !important;
+        margin-top: 30px;
+        
+    }
+    .parentiba a{
+        padding: 10px;
+    }
+    .parentea img {
+        margin-left: 40px;
+    
+    }
+   
+   
+    .contectba i{
+        margin-left: 25%;
+    }
+  
+
+}
+@media screen and (min-width:570px) and (max-width:1024px) {
+    header {
+        flex-wrap: wrap;    
+    }
+    .logo a img {
+        width: 60px;
+    }
+    header ul li a{padding: 0;
+        font-size: 10px !important; 
+    }
+    header ul{padding: 0;
+        margin:  0;
+        flex-wrap: wrap;
+    }
+    header ul li{padding: 0;
+     margin:  0;
+    }
+    header{
+        flex-wrap: wrap;
+    }
+    .parentb,.perentd,  .parenthead,.parenteaa,.parentfaa,.parentgaa,.parentgb,.parenth h4,.parentib ,.Servicesb,.Appliyc,.Appliya,.Appliyd
+    ,.contectaba,.contectb{
+        flex-direction: column;
+    }
+    
+    .parentda,.parentea,.parentfa,.parent,.parentgba,.parentgbb,.parenth,.SERVICESba,.Appliyda,.Appliydb,.contectabb,.contectba{
+        /* width: unset !important; */
+        width: 50%;
+        margin-top: 50px;
+    }
+    .Appliyaa {
+        display: none !important;
+    }
+    .parentiba a{
+        padding: 10px;
+    }
+    .parentea img {
+        margin-left: 40px;
+    
+    }
+    .btn a{
+        padding: 0 5px;
+        font-size: 18px;
+    }
+    .contectba i{
+        margin-left: 25%;
+    }
+}

@@ -1,0 +1,770 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #192655;
+    padding: 15px 20px;
+
+}
+
+
+.logo a img{
+    width: 60px;
+}
+
+.manu ul {margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.manu ul li {
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.manu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.btn a {
+    background-color: #3876BF;
+    color: white;
+    padding: 0px 5px;
+    text-decoration: none;
+    border-radius: 30px;
+font-size: 15px;
+}
+
+.parenthead {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.parent {
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.parent .btn a {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.parent h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.parent p {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.parent img {
+    width: 100%;
+    height: 100%;
+}
+
+.parenta h1 {
+    margin-top: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.parentb {
+    
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.parentb a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 0 20px;
+}
+.parentb a img{
+    margin-top: 20px;
+    height: auto;
+    max-width: 202px;
+    max-height: 70px;
+    cursor: pointer;
+}
+
+.parentc {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.parentc h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.perentd {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 65%;
+    margin: auto;
+}
+
+.parentda {
+    width: 30%;
+    box-shadow: 3px 4px 5px 4px gray;
+}
+
+.parentda img {
+    width: 45%;
+    margin: auto;
+    margin-left: 22%;
+    border-radius: 35%;
+}
+
+.parentda h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.parentda h4 {
+    text-align: center;
+}
+
+.parentda p {
+    padding: 10%;
+    text-align: center;
+}
+
+.btnan {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.btnn {
+    margin: 10px ;
+}
+
+.btnn a {
+    background-color: #3876BF;
+    color: white;
+    font-size: 15px;
+    padding: 3px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+
+}
+
+.parente {
+    width: 100%;
+    height: auto;
+    margin-top: 170px;
+    background-image: url("./images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parente h1 {
+    margin-top: 120px 0;
+    padding: 70px 0;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.parenteaa {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parentea {
+    width: 23%;
+    color: white;
+    margin: 100px;
+    background: rgba(0,0,0,.62);
+    border-radius: 20px;
+}
+
+.parentea img {
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 50%;
+}
+
+.parentea h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.parentea p {
+    text-align: center;
+    font-size: 18px;
+    padding: 5%;
+    
+}
+
+.parentf {
+    width: 100%;
+    background-color: gainsboro;
+}
+
+.parentf h1 {
+    padding-top: 120px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.parentf h2 {
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.parentfa {
+    width: 26%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.parentfaa {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.parentfa i {
+    font-size: 80px;
+    
+    
+}
+
+.parentfa h3 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.parentfa p {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.parentg {
+    width: 100%;
+    margin: 70px 0;
+}
+
+.parentgaa {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.parentga {
+    width: 50%;
+}
+
+.parentga img {
+    width: 100%;
+}
+
+.parentgb {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.parentgba {
+    margin: auto;
+}
+
+.parentgba h6 {
+      text-align: center;
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.parentgbb {
+    width: 50%;
+
+}
+
+.parentgbb h2 {
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.parentgbb p {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.parentg h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.parenth {
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.519);
+}
+.parenth h4{
+    
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    text-align: center;
+
+}
+.parenth h4 .btn a{
+    padding: 8px 20px;
+    font-size: 15px;
+}
+.parenth h4 p{padding: 0 20px;}
+
+.parenth h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.parenth h2 {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+
+}
+
+
+
+.parenti {
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.447);
+
+}
+
+.parenti img {
+    width: 150px;
+    margin-left: 10%;
+}
+
+.parenti p {
+    margin-left: 10%;
+    color: white;
+
+}
+
+.parentia {
+
+    width: 75%;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.parentib {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+
+.parentiba i {
+    font-size: 25px;
+    color: white;
+    padding: 10px 10px 15px 0px;
+}
+
+.parentiba a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.parentic {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.Servicesa {
+    width: 100%;
+    margin: 70px 0;
+}
+
+.Servicesa h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.Servicesb {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.SERVICESba {
+    width: 26%;
+    position: relative;
+    margin: 70px 20px;
+    box-shadow: 3px 4px 3px 4px gray;
+}
+
+.SERVICESba h1 {
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.SERVICESba p {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.SERVICESba i {
+    font-size: 90px;
+    position: absolute;
+
+    margin-top: -10%;
+    margin-left: 35%;
+}
+
+.Servicesc {
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.677);
+}
+
+.Servicesc img {
+    width: 100%;
+}
+
+.Servicese {
+    width: 100%;
+
+    padding-top: 110px;
+    background-color: white;
+
+}
+
+.Servicese h2 {
+    text-align: center;
+}
+
+.Servicese h1 {
+    padding-top: 20px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Servicese h4 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.Servicese p {
+    text-align: center;
+}
+
+.Servicesf {
+    width: 100%;
+    padding: 50px 0;
+    background-color: white;
+}
+
+.manu ul li i {
+
+    padding: 10px ;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.Appliya {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(24, 24, 176);
+}
+
+.Appliyab {
+    width: 100%;
+}
+
+.Appliyaa {
+    width: 5%;
+    position: fixed;
+}
+
+.Appliyab h4 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10%;
+    color: white;
+}
+
+.Appliyab p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 3%;
+}
+
+.Appliyab h5 {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.Appliyab h5 .btn a {
+    font-size: 16px;
+    padding: 0 5px;
+   
+}
+
+.Appliyaa li {
+
+    padding: 10px 0;
+    list-style: none;
+}
+
+.Appliyaa li i {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.Appliyaa li i:hover {
+    transition:all 2s;
+    font-size: 100px;
+    }
+
+.Appliyb {
+    width: 100%;
+}
+
+.Appliyb h1 {
+    padding: 70px 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+.Appliyc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+.Appliyc p {
+    padding: 25px;
+    font-size: 20px;
+}
+
+.Appliyc select {
+    font-size: 17px;
+}
+
+.Appliyd {
+    margin: 15px auto;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Appliyd:hover {
+    box-shadow: 3px 4px 3px 4px gray;
+}
+
+.Appliyda {
+    width: 90%;
+}
+.Appliyda h1{
+    font-size: 25px;
+}
+
+.Appliyda i,
+span,
+h1 {
+    padding: 10px;
+}
+
+.Appliyda span {
+    font-size: 18px;
+}
+
+.Appliydb {
+    width: 12%;
+}
+
+
+
+.Appliye {
+    margin-top: 70px;
+    width: 100%;
+    background-color: gray;
+}
+
+.Appliye h1 {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 25px;
+    color: white;
+}
+
+.contecta {
+    width: 100%;
+    background-color: rgb(40, 40, 194);
+    padding: 45px;
+}
+
+.contecta h1 {
+    text-align: center;
+    padding: 70px 0;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contectab {
+    width: 75%;
+    margin: auto;
+}
+
+.contectaba {
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contectabb {
+    width: 47.50%;
+}
+
+.contectabb input {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+.contectabb label {
+    font-size: 20px;
+    color: white;
+
+}
+
+.contectab textarea {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.contectab label {
+    font-size: 20px;
+    color: white;
+}
+
+.contectb {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+.contectba {
+    margin-top: 22%;
+    width: 45%;
+    position: relative;
+
+    box-shadow: 5px 5px 6px 5px wheat;
+}
+
+.contectba h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 70px;
+}
+.contectba i {
+    font-size: 120px;
+    position: absolute;
+    margin-top: -14%;
+    margin-left: 40%;
+}
+
+.contectc {
+    width: 100%;
+    margin: 20px;
+}
+
+.contectc h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 110px;
+}
+
+.contectc h2 {
+    text-align: center;
+
+}
